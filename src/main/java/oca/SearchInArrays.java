@@ -19,5 +19,8 @@ public class SearchInArrays {
     System.out.println("not found, result: " + i);
 
 
+    int searchInString = "Stringa".indexOf('z');
+    System.out.println("String.indexOf always returns -1 when no matches: " + searchInString);
+
   }
 }
