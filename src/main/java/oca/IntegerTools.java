@@ -2,6 +2,7 @@ package oca;
 
 public class IntegerTools {
   static IntegerTools o = new IntegerTools();
+
   public static void main(String[] args) {
     o.method(Integer.valueOf(1));
     o.method(Integer.valueOf("1"));
@@ -9,10 +10,11 @@ public class IntegerTools {
   }
 
 
-  void method(int i){
+  void method(int i) {
     System.out.println("method(int)");
   }
-  void method(Integer i){
+
+  void method(Integer i) {
     System.out.println("method(Integer)");
   }
 }
